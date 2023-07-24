@@ -6,7 +6,7 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <meta content="#ffffff" name="msapplication-TileColor"/>
     <meta content="#ffffff" name="theme-color"/>
-    <title>PiratezParty - Encrypted Open Source File Sharing (Users Edition)</title>
+    <title>PiratezParty - Encrypted Open Source File Sharing</title>
     <link href="favicon.png" rel="shortcut icon" type="image/png">
     <link href="favicon.png" rel="shortcut icon" sizes="196x196">
     <link href="favicon.png" rel="apple-touch-icon">
@@ -15,7 +15,7 @@
     <meta content="Encrypted Open Source File Sharing." property="og:description"/>
     <meta content="/favicon.png" property="og:image"/>
     <meta
-            content="Build For PiratezParty Users."
+            content="Build For PiratezParty."
             name="description"
     />
     <link rel="manifest" href="manifest.json">
@@ -56,14 +56,14 @@
         </nav>
     </div>
     <p>
-        Cloud storage system for PiratezParty Users.
+        Cloud storage system for PiratezParty.
     </p>
 </div>
 
 <div class="container">
     <table id="fm-table">
         <caption>
-            PiratezParty File Manager (Users Edition)
+            PiratezParty File Manager
         </caption>
         <thead>
         </thead>
@@ -80,16 +80,16 @@
                         ></path>
                     </svg>
                 </button>
-               
-                        <path fill-rule="evenodd"
-                              d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
-                        ></path>
-                    </svg>
+                <!--                Trash can-->
+                <button type="button" hidden id="trash-btn"
+                        style="border: none; background: none; height:1.7rem; width: 1.7rem; vertical-align: middle; float: right">
+                    
                 </button>
-               
-                        <path fill-rule="evenodd"
-                              d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
-                    </svg>
+                <!--                Rename-->
+                <button type="button" hidden id="rename-btn"
+                        style="border: none; background: none; height:1.7rem; width: 1.7rem; vertical-align: middle; float: right"
+                >
+                    
                 </button>
                 <!--                Copy btn-->
                 <button type="button" id="clipboard-btn"
@@ -140,8 +140,8 @@
     <section id="progress-section">
     </section>
 
-    <p>Built with ❤️ for Piratezparty.<br></a> Licensed under the PiratezParty usera Act 2022 <a
-            </p>
+    <p>Built with ❤️ for Piratezparty.<br></a> Licensed under the <a
+            MIT License.</a></p>
     <hr/>
     <script src="index.js"></script>
     <script>
